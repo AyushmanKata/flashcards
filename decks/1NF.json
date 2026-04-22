@@ -1,0 +1,42 @@
+[
+  {
+    "q": "What does 1NF stand for?",
+    "a": "First Normal Form."
+  },
+  {
+    "q": "What is the main goal of 1NF?",
+    "a": "To eliminate repeating groups or arrays, ensuring each cell in a table contains a single value."
+  },
+  {
+    "q": "What is a repeating group?",
+    "a": "A repeating group is a set of related values stored in a single column, violating the principle of atomicity."
+  },
+  {
+    "q": "How do you convert a table to 1NF?",
+    "a": "By eliminating repeating groups and creating separate rows for each group, or by creating a new table to store the related values."
+  },
+  {
+    "q": "What is an example of a table that is not in 1NF?",
+    "a": "A table with a column containing a list of phone numbers, such as '123-4567, 890-1234'."
+  },
+  {
+    "q": "What are the benefits of normalizing a table to 1NF?",
+    "a": "Improved data integrity, reduced data redundancy, and improved scalability."
+  },
+  {
+    "q": "Can a table be in 1NF and still have data redundancy?",
+    "a": "Yes, 1NF only eliminates repeating groups, but does not address other forms of data redundancy."
+  },
+  {
+    "q": "What is the next step after normalizing a table to 1NF?",
+    "a": "Normalizing the table to 2NF, which eliminates partial dependencies."
+  },
+  {
+    "q": "How does 1NF affect data querying and retrieval?",
+    "a": "1NF makes it easier to query and retrieve data, as each row represents a single, unique entity."
+  },
+  {
+    "q": "Is 1NF sufficient for all database design?",
+    "a": "No, higher normal forms, such as 2NF and 3NF, are often necessary to ensure a well-designed and scalable database."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "q": "What are normal forms in DBMS?",
+    "a": "Normal forms are a set of progressive rules for relational schemas that reduce redundancy and prevent data anomalies."
+  },
+  {
+    "q": "What are the benefits of using normal forms?",
+    "a": "Benefits include reducing duplicate data, preventing insert, update, and delete anomalies, and improving data consistency and integrity."
+  },
+  {
+    "q": "What is First Normal Form (1NF)?",
+    "a": "1NF eliminates duplicate records by ensuring all columns contain atomic values, each row is unique, and each column has a unique name."
+  },
+  {
+    "q": "What is Second Normal Form (2NF)?",
+    "a": "2NF eliminates partial dependency by ensuring every non-prime attribute depends on the entire primary key, not just a part of it."
+  },
+  {
+    "q": "What is Third Normal Form (3NF)?",
+    "a": "3NF eliminates transitive dependency by ensuring non-prime attributes do not depend on other non-prime attributes."
+  },
+  {
+    "q": "What is Boyce-Codd Normal Form (BCNF)?",
+    "a": "BCNF is a stricter version of 3NF where every non-trivial functional dependency X \u2192 Y requires X to be a superkey."
+  },
+  {
+    "q": "What is Fourth Normal Form (4NF)?",
+    "a": "4NF removes multi-valued dependencies by ensuring a table is in BCNF and has no multi-valued dependencies."
+  },
+  {
+    "q": "What is Fifth Normal Form (5NF)?",
+    "a": "5NF eliminates join dependency by ensuring every table is fully decomposed into smaller tables that are logically connected without losing information."
+  },
+  {
+    "q": "When to use normalization?",
+    "a": "Normalization is best suited for transactional systems where data integrity is paramount, such as banking systems and enterprise applications."
+  },
+  {
+    "q": "When to use denormalization?",
+    "a": "Denormalization is ideal for read-heavy applications like data warehousing and reporting systems where performance and query speed are more critical than data integrity."
+  }
+]
